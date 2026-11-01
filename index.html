@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BrickByte 2026 | 24-Hour Hybrid Hackathon, Gorakhpur</title>
+  <meta name="description" content="BrickByte 2026 is a free 24-hour hybrid hackathon by a GDG-inspired community at MMMUT, Gorakhpur on 12-13 December 2026. Build for Bharat, brick by brick.">
+  <meta name="theme-color" content="#14182e">
+  <meta name="color-scheme" content="light">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="BrickByte 2026 | 24-Hour Hybrid Hackathon">
+  <meta property="og:description" content="Build for Bharat, brick by brick. 12-13 December 2026, MMMUT Gorakhpur. Free to join, beginners welcome.">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect y='11' width='32' height='19' rx='4' fill='%23EA4335'/%3E%3Crect x='4' y='4' width='8' height='7' rx='2' fill='%23EA4335'/%3E%3Crect x='20' y='4' width='8' height='7' rx='2' fill='%23EA4335'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Playfair+Display:ital,wght@0,600;1,500;1,600;1,700&family=Outfit:wght@600;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+
+  <noscript><p class="noscript">JavaScript is turned off. The countdown, schedule and track filters and the form checks need it, but every detail of the event is still readable below.</p></noscript>
+
+  <!-- Reusable SVG icons (all original, drawn for this project) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="brand" viewBox="0 0 48 48">
+        <rect x="3" y="3" width="20" height="20" rx="6" fill="#4285F4"/>
+        <rect x="25" y="3" width="20" height="20" rx="10" fill="#EA4335"/>
+        <rect x="3" y="25" width="20" height="20" rx="10" fill="#FBBC05"/>
+        <rect x="25" y="25" width="20" height="20" rx="6" fill="#34A853"/>
+      </symbol>
+      <symbol id="logo" viewBox="0 0 48 48">
+        <rect x="4" y="18" width="40" height="24" rx="5" fill="currentColor"/>
+        <rect x="10" y="9" width="10" height="9" rx="3" fill="currentColor"/>
+        <rect x="28" y="9" width="10" height="9" rx="3" fill="currentColor"/>
+      </symbol>
+      <symbol id="i-campus" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M4 18 24 6l20 12z"/><path d="M9 18v22h30V18"/><path d="M20 40V28h8v12"/>
+        </g>
+      </symbol>
+      <symbol id="i-farm" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 42V22"/><path d="M24 28c0-8-6-12-14-12 0 8 5 12 14 12z"/><path d="M24 22c0-7 5-11 13-11 0 7-4 11-13 11z"/>
+        </g>
+      </symbol>
+      <symbol id="i-health" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 41S6 30 6 17a9 9 0 0 1 18-2 9 9 0 0 1 18 2c0 13-18 24-18 24z"/><path d="M24 16v12M18 22h12"/>
+        </g>
+      </symbol>
+      <symbol id="i-ai" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="12" y="12" width="24" height="24" rx="3"/><rect x="19" y="19" width="10" height="10"/>
+          <path d="M18 6v6M30 6v6M18 36v6M30 36v6M6 18h6M6 30h6M36 18h6M36 30h6"/>
+        </g>
+      </symbol>
+      <symbol id="i-trophy" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 8h16v10a8 8 0 0 1-16 0z"/><path d="M16 12H8c0 6 3 9 8 10M32 12h8c0 6-3 9-8 10"/><path d="M24 26v8M19 34h10M16 40h16"/>
+        </g>
+      </symbol>
+      <symbol id="i-medal" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="24" cy="30" r="10"/><path d="M16 4l6 12M32 4l-6 12"/><path d="M24 26v8"/>
+        </g>
+      </symbol>
+      <symbol id="i-palette" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 6C13 6 6 14 6 24s7 18 16 18c3 0 4-2 3-4s0-5 4-5h5c5 0 8-3 8-8C42 13 34 6 24 6z"/>
+          <circle cx="16" cy="23" r="1.5"/><circle cx="24" cy="15" r="1.5"/><circle cx="33" cy="21" r="1.5"/>
+        </g>
+      </symbol>
+      <symbol id="avatar" viewBox="0 0 96 96">
+        <rect width="96" height="96" rx="22" style="fill:var(--av-bg,#fff)"/>
+        <path d="M14 96c0-22 14-34 34-34s34 12 34 34z" style="fill:var(--cloth)" stroke="#14182e" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="48" cy="38" r="17" style="fill:var(--skin)" stroke="#14182e" stroke-width="3"/>
+        <path d="M30 37c0-14 8-21 18-21s18 7 18 21c-5-7-10-10-18-10s-13 3-18 10z" style="fill:var(--hair)" stroke="#14182e" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="42" cy="41" r="2" fill="#14182e"/><circle cx="54" cy="41" r="2" fill="#14182e"/>
+        <path d="M43 48q5 4 10 0" fill="none" stroke="#14182e" stroke-width="2.5" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="avatar-long" viewBox="0 0 96 96">
+        <rect width="96" height="96" rx="22" style="fill:var(--av-bg,#fff)"/>
+        <path d="M27 40c-3 24 3 36 21 36s24-12 21-36c-2-16-10-24-21-24s-19 8-21 24z" style="fill:var(--hair)" stroke="#14182e" stroke-width="3" stroke-linejoin="round"/>
+        <path d="M14 96c0-22 14-34 34-34s34 12 34 34z" style="fill:var(--cloth)" stroke="#14182e" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="48" cy="40" r="16" style="fill:var(--skin)" stroke="#14182e" stroke-width="3"/>
+        <path d="M31 38c1-13 8-19 17-19s16 6 17 19c-6-6-10-8-17-8s-11 2-17 8z" style="fill:var(--hair)" stroke="#14182e" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="42" cy="43" r="2" fill="#14182e"/><circle cx="54" cy="43" r="2" fill="#14182e"/>
+        <path d="M43 50q5 4 10 0" fill="none" stroke="#14182e" stroke-width="2.5" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="i-goal" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="22" cy="26" r="15"/><circle cx="22" cy="26" r="8"/><circle cx="22" cy="26" r="1.5"/><path d="M23 25 40 8M33 7h8v8"/>
+        </g>
+      </symbol>
+      <symbol id="i-people" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="18" cy="17" r="6"/><path d="M5 40c0-8 5-13 13-13s13 5 13 13"/><circle cx="34" cy="19" r="5"/><path d="M33 28c7-1 11 4 11 12"/>
+        </g>
+      </symbol>
+      <symbol id="i-gift" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="8" y="21" width="32" height="19" rx="3"/><path d="M6 14h36v7H6zM24 14v26"/><path d="M24 14c-7 0-11-2-11-5s5-4 11 5c6-9 11-8 11-5s-4 5-11 5"/>
+        </g>
+      </symbol>
+      <symbol id="i-star" viewBox="0 0 48 48">
+        <g fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M24 5l5.5 11.5L42 18l-9 8.8L35.2 40 24 34l-11.2 6L15 26.8 6 18l12.5-1.5z"/>
+        </g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#about">Skip to content</a>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="BrickByte 2026, back to top">
+        <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#brand"/></svg>
+        <span class="brand-text">Brick<b>Byte</b> <small>2026</small></span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#tracks">Tracks</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a class="btn btn-primary nav-cta" href="#register">Register</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <span class="deco d1" aria-hidden="true"></span>
+      <span class="deco d2" aria-hidden="true"></span>
+      <span class="deco d3" aria-hidden="true"></span>
+      <span class="deco d4" aria-hidden="true"></span>
+      <span class="deco d5" aria-hidden="true"></span>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="host-lockup">
+            <img class="host-logo" src="mmmut-logo.png" width="68" height="68" alt="Emblem of Madan Mohan Malaviya University of Technology, Gorakhpur">
+            <span class="host-x" aria-hidden="true">&times;</span>
+            <svg class="host-gdg" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#brand"/></svg>
+            <p class="host-text"><strong>MMMUT, Gorakhpur</strong><span>with its GDG-inspired community</span></p>
+          </div>
+          <p class="eyebrow">A GDG-inspired community presents</p>
+          <h1 id="hero-title">Brick<span>Byte</span> <span class="year">2026</span></h1>
+          <p class="tagline">Build for <span class="rotor" id="rotor">Bharat</span>. Brick by brick.</p>
+          <p class="hero-sub">Build a working prototype in 24 hours, with mentors by your side and real problems to solve. Free to join, open to every college, and beginners are welcome.</p>
+
+          <ul class="chips" aria-label="Event details">
+            <li class="chip chip-blue"><span aria-hidden="true">📅</span> 12&ndash;13 December 2026</li>
+            <li class="chip chip-green"><span aria-hidden="true">📍</span> MMMUT Campus, Gorakhpur</li>
+            <li class="chip chip-yellow"><span aria-hidden="true">🌐</span> Hybrid: offline + online</li>
+          </ul>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-lg" href="#register">Register Now</a>
+            <a class="btn btn-ghost btn-lg" href="#schedule">View Schedule</a>
+          </div>
+
+          <p class="hero-micro"><span class="live-dot" aria-hidden="true"></span><strong id="hero-days">Registration open</strong><span class="sep" aria-hidden="true">&middot;</span>Free entry<span class="sep" aria-hidden="true">&middot;</span>No experience needed</p>
+
+          <div class="countdown-wrap">
+            <p class="countdown-label" id="countdown-label">Hacking begins in</p>
+            <div class="countdown" role="timer" aria-labelledby="countdown-label">
+              <div class="cd-cell"><span id="cd-days">00</span><small>Days</small></div>
+              <div class="cd-cell"><span id="cd-hours">00</span><small>Hours</small></div>
+              <div class="cd-cell"><span id="cd-mins">00</span><small>Mins</small></div>
+              <div class="cd-cell"><span id="cd-secs">00</span><small>Secs</small></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <svg viewBox="0 0 420 380" role="img" aria-labelledby="hero-art-title">
+            <title id="hero-art-title">Illustration of colourful stacked bricks with a code symbol, representing the BrickByte hackathon</title>
+            <!-- sparkles -->
+            <path class="twinkle" fill="#FBBC05" stroke="#14182e" stroke-width="2" d="M60 36l5 13 13 5-13 5-5 13-5-13-13-5 13-5z"/>
+            <path class="twinkle" fill="#EA4335" stroke="#14182e" stroke-width="2" d="M366 150l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+            <path class="twinkle" fill="#34A853" stroke="#14182e" stroke-width="2" d="M352 40l3 8 8 3-8 3-3 8-3-8-8-3 8-3z"/>
+            <!-- ground shadow -->
+            <ellipse cx="210" cy="340" rx="170" ry="18" fill="#14182e" opacity=".12"/>
+            <!-- bottom row -->
+            <g class="drop" style="--i:0"><g>
+              <rect x="40" y="262" width="150" height="70" rx="10" fill="#EA4335" stroke="#14182e" stroke-width="4"/>
+              <rect x="60" y="246" width="30" height="16" rx="5" fill="#EA4335" stroke="#14182e" stroke-width="4"/>
+              <rect x="105" y="246" width="30" height="16" rx="5" fill="#EA4335" stroke="#14182e" stroke-width="4"/>
+              <rect x="150" y="246" width="30" height="16" rx="5" fill="#EA4335" stroke="#14182e" stroke-width="4"/>
+            </g></g>
+            <g class="drop" style="--i:1"><g>
+              <rect x="200" y="262" width="180" height="70" rx="10" fill="#4285F4" stroke="#14182e" stroke-width="4"/>
+              <rect x="218" y="246" width="30" height="16" rx="5" fill="#4285F4" stroke="#14182e" stroke-width="4"/>
+              <rect x="262" y="246" width="30" height="16" rx="5" fill="#4285F4" stroke="#14182e" stroke-width="4"/>
+              <rect x="306" y="246" width="30" height="16" rx="5" fill="#4285F4" stroke="#14182e" stroke-width="4"/>
+              <rect x="342" y="246" width="30" height="16" rx="5" fill="#4285F4" stroke="#14182e" stroke-width="4"/>
+            </g></g>
+            <!-- middle row -->
+            <g class="drop" style="--i:2"><g class="float-a">
+              <rect x="70" y="186" width="150" height="70" rx="10" fill="#FBBC05" stroke="#14182e" stroke-width="4"/>
+              <rect x="90" y="170" width="30" height="16" rx="5" fill="#FBBC05" stroke="#14182e" stroke-width="4"/>
+              <rect x="135" y="170" width="30" height="16" rx="5" fill="#FBBC05" stroke="#14182e" stroke-width="4"/>
+              <rect x="180" y="170" width="30" height="16" rx="5" fill="#FBBC05" stroke="#14182e" stroke-width="4"/>
+            </g></g>
+            <g class="drop" style="--i:3"><g class="float-b">
+              <rect x="232" y="186" width="120" height="70" rx="10" fill="#34A853" stroke="#14182e" stroke-width="4"/>
+              <rect x="250" y="170" width="30" height="16" rx="5" fill="#34A853" stroke="#14182e" stroke-width="4"/>
+              <rect x="300" y="170" width="30" height="16" rx="5" fill="#34A853" stroke="#14182e" stroke-width="4"/>
+            </g></g>
+            <!-- top brick with code -->
+            <g class="drop" style="--i:4"><g class="float-a">
+              <rect x="130" y="100" width="160" height="70" rx="10" fill="#14182e" stroke="#14182e" stroke-width="4"/>
+              <rect x="150" y="84" width="30" height="16" rx="5" fill="#14182e" stroke="#14182e" stroke-width="4"/>
+              <rect x="195" y="84" width="30" height="16" rx="5" fill="#14182e" stroke="#14182e" stroke-width="4"/>
+              <rect x="240" y="84" width="30" height="16" rx="5" fill="#14182e" stroke="#14182e" stroke-width="4"/>
+              <text x="210" y="147" text-anchor="middle" font-family="JetBrains Mono, monospace" font-weight="700" font-size="34" fill="#ffffff">&lt;/&gt;</text>
+            </g></g>
+            <!-- loose bricks -->
+            <g class="drop" style="--i:5"><g class="float-b">
+              <rect x="318" y="76" width="56" height="34" rx="7" fill="#EA4335" stroke="#14182e" stroke-width="4" transform="rotate(14 346 93)"/>
+            </g></g>
+            <g class="drop" style="--i:6"><g class="float-a">
+              <rect x="30" y="120" width="50" height="30" rx="7" fill="#4285F4" stroke="#14182e" stroke-width="4" transform="rotate(-16 55 135)"/>
+            </g></g>
+          </svg>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll down to the About section"><span></span></a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <div class="marquee-group"><span>Imagine</span><span>Create</span><span>Collaborate</span><span>Conquer</span><span>Inspire</span><span>Triumph</span></div>
+        <div class="marquee-group"><span>Imagine</span><span>Create</span><span>Collaborate</span><span>Conquer</span><span>Inspire</span><span>Triumph</span></div>
+        <div class="marquee-group"><span>Imagine</span><span>Create</span><span>Collaborate</span><span>Conquer</span><span>Inspire</span><span>Triumph</span></div>
+        <div class="marquee-group"><span>Imagine</span><span>Create</span><span>Collaborate</span><span>Conquer</span><span>Inspire</span><span>Triumph</span></div>
+      </div>
+    </div>
+
+    <!-- Quick facts strip -->
+    <section class="facts" aria-label="Event at a glance">
+      <div class="container facts-grid">
+        <div class="fact"><strong>24</strong><span>hours of building</span></div>
+        <div class="fact"><strong>4</strong><span>problem tracks</span></div>
+        <div class="fact"><strong>&#8377;90,000</strong><span>sample prize pool</span></div>
+        <div class="fact"><strong>1&ndash;4</strong><span>members per team</span></div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">About the event</p>
+          <h2 id="about-title">One weekend. One idea. Built brick by brick.</h2>
+          <p class="lead">BrickByte 2026 is a 24-hour hybrid hackathon run by a GDG-inspired student community. Form a team, pick a real-world problem, build a working prototype, and demo it to mentors and judges.</p>
+        </div>
+
+        <blockquote class="quote">
+          <p>Great products are never built in one go. They are built one small, solid brick at a time.</p>
+          <cite>&mdash; The BrickByte idea</cite>
+        </blockquote>
+
+        <aside class="host-card" aria-label="Hosting institution">
+          <img src="mmmut-logo.png" width="96" height="96" alt="Emblem of Madan Mohan Malaviya University of Technology, Gorakhpur" loading="lazy">
+          <div>
+            <p class="ab-kicker">Hosted at</p>
+            <h3>Madan Mohan Malaviya University of Technology</h3>
+            <p>BrickByte is built by the GDG-inspired community of MMMUT, Gorakhpur: students who learn, build and ship together, and now invite the whole region to do the same.</p>
+          </div>
+        </aside>
+
+        <div class="grid grid-3">
+          <article class="card about-card c-blue">
+            <div class="ab-head">
+              <span class="ab-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><use href="#i-goal"/></svg></span>
+              <div><p class="ab-kicker">Why we run it</p><h3>Our goals</h3></div>
+            </div>
+            <ul class="tick-list">
+              <li>Turn classroom concepts into working products</li>
+              <li>Solve problems relevant to Purvanchal and India</li>
+              <li>Grow a community of builders at MMMUT</li>
+            </ul>
+          </article>
+          <article class="card about-card c-green">
+            <div class="ab-head">
+              <span class="ab-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><use href="#i-people"/></svg></span>
+              <div><p class="ab-kicker">Who it's for</p><h3>Who can join</h3></div>
+            </div>
+            <ul class="tick-list">
+              <li>Students from any college or branch</li>
+              <li>Beginners are welcome, no prior hackathon needed</li>
+              <li>Teams of 1 to 4 members</li>
+            </ul>
+          </article>
+          <article class="card about-card c-yellow">
+            <div class="ab-head">
+              <span class="ab-icon" aria-hidden="true"><svg viewBox="0 0 48 48" focusable="false"><use href="#i-gift"/></svg></span>
+              <div><p class="ab-kicker">What's in it for you</p><h3>What you get</h3></div>
+            </div>
+            <ul class="tick-list">
+              <li>Mentor sessions with industry and campus experts</li>
+              <li>Meals, swag and certificates for all participants</li>
+              <li>Prizes, goodies and a chance to showcase your work</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3 class="perks-title" id="perks-title">Why join BrickByte?</h3>
+        <ul class="perks" aria-labelledby="perks-title">
+          <li class="perk c-blue"><strong>Free</strong><span>entry for every team</span></li>
+          <li class="perk c-green"><strong>3</strong><span>food breaks: dinner, midnight snacks, breakfast</span></li>
+          <li class="perk c-yellow"><strong>4</strong><span>mentors and judges on call</span></li>
+          <li class="perk c-red"><strong>100%</strong><span>of participants get certificates</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ TRACKS ============ -->
+    <section id="tracks" class="section section-alt" aria-labelledby="tracks-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Tracks &amp; challenges</p>
+          <h2 id="tracks-title">Choose your quest</h2>
+          <p class="lead">Four tracks built around everyday problems faced by real people. Filter by what suits your team, then pick one.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter tracks" data-target="track-grid" data-attr="data-tags" data-status="track-status">
+          <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All tracks</button>
+          <button type="button" class="filter-btn" data-filter="beginner" aria-pressed="false">Beginner-friendly</button>
+          <button type="button" class="filter-btn" data-filter="web" aria-pressed="false">Web</button>
+          <button type="button" class="filter-btn" data-filter="mobile" aria-pressed="false">Mobile</button>
+          <button type="button" class="filter-btn" data-filter="ai" aria-pressed="false">AI-powered</button>
+        </div>
+        <p class="filter-status" id="track-status" aria-live="polite">Showing all 4 tracks</p>
+
+        <div class="grid grid-4" id="track-grid">
+          <article class="card track c-blue" data-tags="beginner web">
+            <span class="track-num" aria-hidden="true">01</span>
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-campus"/></svg></div>
+            <h3>Smart Campus</h3>
+            <p>Make campus life easier with tools for timetables, attendance, event discovery, lost and found, or safe travel.</p>
+            <ul class="track-tags" aria-label="Track tags"><li>Beginner-friendly</li><li>Web</li></ul>
+          </article>
+          <article class="card track c-green" data-tags="beginner mobile">
+            <span class="track-num" aria-hidden="true">02</span>
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-farm"/></svg></div>
+            <h3>AgriTech for Bharat</h3>
+            <p>Help farmers with crop advice, weather alerts, mandi prices, or simple tools that work in local languages.</p>
+            <ul class="track-tags" aria-label="Track tags"><li>Beginner-friendly</li><li>Mobile</li></ul>
+          </article>
+          <article class="card track c-red" data-tags="mobile ai">
+            <span class="track-num" aria-hidden="true">03</span>
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-health"/></svg></div>
+            <h3>Health &amp; Accessibility</h3>
+            <p>Build inclusive solutions: health reminders, telemedicine helpers, or apps for people with disabilities.</p>
+            <ul class="track-tags" aria-label="Track tags"><li>Mobile</li><li>AI-powered</li></ul>
+          </article>
+          <article class="card track c-yellow" data-tags="web ai">
+            <span class="track-num" aria-hidden="true">04</span>
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-ai"/></svg></div>
+            <h3>AI for Everyone</h3>
+            <p>Use AI responsibly to simplify learning, language, productivity, or public services for everyday users.</p>
+            <ul class="track-tags" aria-label="Track tags"><li>Web</li><li>AI-powered</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SCHEDULE ============ -->
+    <section id="schedule" class="section" aria-labelledby="schedule-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Schedule</p>
+          <h2 id="schedule-title">Two days, woven into one timeline</h2>
+          <p class="lead">Your 24-hour roadmap, from check-in to prizes. All times are in Indian Standard Time (IST).</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter schedule by day" data-target="timeline" data-attr="data-day">
+          <button type="button" class="filter-btn is-active" data-filter="all" aria-pressed="true">All</button>
+          <button type="button" class="filter-btn" data-filter="1" aria-pressed="false">Day 1 &middot; Sat 12 Dec</button>
+          <button type="button" class="filter-btn" data-filter="2" aria-pressed="false">Day 2 &middot; Sun 13 Dec</button>
+        </div>
+
+        <ol class="timeline" id="timeline">
+          <li data-day="1" class="tl-blue">
+            <div class="tl-time"><span class="tl-day">Day 1</span>09:00 &ndash; 10:00 AM</div>
+            <div class="tl-body"><h3>Registration &amp; Check-in</h3><p>Collect your badge, meet your team and settle in at your workstation.</p></div>
+          </li>
+          <li data-day="1" class="tl-red">
+            <div class="tl-time"><span class="tl-day">Day 1</span>10:00 &ndash; 10:45 AM</div>
+            <div class="tl-body"><h3>Opening Ceremony &amp; Rules</h3><p>Welcome note from GDG MMMUT, track briefing and judging criteria.</p></div>
+          </li>
+          <li data-day="1" class="tl-yellow">
+            <div class="tl-time"><span class="tl-day">Day 1</span>11:00 AM</div>
+            <div class="tl-body"><h3>Hacking Begins</h3><p>The 24-hour build starts. Time to put your first brick down.</p></div>
+          </li>
+          <li data-day="1" class="tl-green">
+            <div class="tl-time"><span class="tl-day">Day 1</span>04:00 &ndash; 06:00 PM</div>
+            <div class="tl-body"><h3>Mentor Round</h3><p>Get feedback on your idea and approach from mentors.</p></div>
+          </li>
+          <li data-day="1" class="tl-blue">
+            <div class="tl-time"><span class="tl-day">Day 1</span>08:00 PM</div>
+            <div class="tl-body"><h3>Dinner &amp; Brick Challenge</h3><p>Refuel, then try a fun 20-minute LEGO-style build-off between teams.</p></div>
+          </li>
+          <li data-day="1" class="tl-yellow">
+            <div class="tl-time"><span class="tl-day">Day 1 &middot; Night</span>12:00 AM</div>
+            <div class="tl-body"><h3>Midnight Snacks &amp; Stand-up</h3><p>Grab a bite, share your progress in 60 seconds and cheer on other teams.</p></div>
+          </li>
+          <li data-day="1" class="tl-blue">
+            <div class="tl-time"><span class="tl-day">Day 1 &middot; Night</span>02:00 AM</div>
+            <div class="tl-body"><h3>Night Owl Mentor Desk</h3><p>Stuck on a bug? Mentors stay on call for quick help through the night.</p></div>
+          </li>
+          <li data-day="2" class="tl-green">
+            <div class="tl-time"><span class="tl-day">Day 2</span>08:00 AM</div>
+            <div class="tl-body"><h3>Breakfast &amp; Final Sprint</h3><p>Refuel, polish your demo and prepare your 5-minute pitch.</p></div>
+          </li>
+          <li data-day="2" class="tl-red">
+            <div class="tl-time"><span class="tl-day">Day 2</span>11:00 AM</div>
+            <div class="tl-body"><h3>Code Freeze &amp; Submissions Close</h3><p>Stop coding and submit your repository, demo link and short pitch.</p></div>
+          </li>
+          <li data-day="2" class="tl-yellow">
+            <div class="tl-time"><span class="tl-day">Day 2</span>12:00 &ndash; 02:00 PM</div>
+            <div class="tl-body"><h3>Demos &amp; Judging</h3><p>Each team gets 5 minutes to demo, followed by judge questions.</p></div>
+          </li>
+          <li data-day="2" class="tl-green">
+            <div class="tl-time"><span class="tl-day">Day 2</span>04:00 &ndash; 05:00 PM</div>
+            <div class="tl-body"><h3>Closing &amp; Prize Ceremony</h3><p>Winners announced, certificates handed out, and group photo.</p></div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ MENTORS & JUDGES ============ -->
+    <section id="mentors" class="section section-alt" aria-labelledby="mentors-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Mentors &amp; judges</p>
+          <h2 id="mentors-title">Experts in your corner</h2>
+          <p class="lead">Get guidance while you build and feedback when you demo. Names and portraits below are fictional samples.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card mentor c-blue">
+            <svg class="avatar" viewBox="0 0 96 96" role="img" aria-label="Illustrated portrait of Dr. Aarav Mehta, a sample mentor" style="--av-bg:#e3edff;--skin:#e0ac82;--hair:#14182e;--cloth:#4285f4"><use href="#avatar"/></svg>
+            <h3>Dr. Aarav Mehta</h3>
+            <p class="mentor-role">Mentor &middot; Cloud &amp; DevOps</p>
+            <p>Helps teams deploy fast and keep their demo running smoothly.</p>
+            <span class="tag">Sample mentor</span>
+          </article>
+          <article class="card mentor c-red">
+            <svg class="avatar" viewBox="0 0 96 96" role="img" aria-label="Illustrated portrait of Isha Verma, a sample mentor" style="--av-bg:#fde6e3;--skin:#c68b64;--hair:#3b2314;--cloth:#ea4335"><use href="#avatar-long"/></svg>
+            <h3>Isha Verma</h3>
+            <p class="mentor-role">Mentor &middot; UI/UX Design</p>
+            <p>Turns rough screens into clear, friendly and accessible interfaces.</p>
+            <span class="tag">Sample mentor</span>
+          </article>
+          <article class="card mentor c-green">
+            <svg class="avatar" viewBox="0 0 96 96" role="img" aria-label="Illustrated portrait of Rohan Tripathi, a sample judge" style="--av-bg:#dff3e5;--skin:#f2c9a0;--hair:#5a3a1e;--cloth:#34a853"><use href="#avatar"/></svg>
+            <h3>Rohan Tripathi</h3>
+            <p class="mentor-role">Judge &middot; AI &amp; Data</p>
+            <p>Looks for ideas that solve a real problem with responsible AI.</p>
+            <span class="tag">Sample judge</span>
+          </article>
+          <article class="card mentor c-yellow">
+            <svg class="avatar" viewBox="0 0 96 96" role="img" aria-label="Illustrated portrait of Prof. Meera Srivastava, a sample judge" style="--av-bg:#fff1bd;--skin:#d9a077;--hair:#8a8a94;--cloth:#14182e"><use href="#avatar-long"/></svg>
+            <h3>Prof. Meera Srivastava</h3>
+            <p class="mentor-role">Judge &middot; Faculty, CSE</p>
+            <p>Rewards clean code, clear thinking and a confident, honest demo.</p>
+            <span class="tag">Sample judge</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRIZES ============ -->
+    <section id="prizes" class="section" aria-labelledby="prizes-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Prizes &amp; rewards</p>
+          <h2 id="prizes-title">Laurels await the bold</h2>
+          <p class="lead">Cash prizes, goodies and bragging rights for teams that build with heart. Prize values below are sample details for this fictional event.</p>
+        </div>
+
+        <div class="grid grid-4">
+          <article class="card prize c-yellow">
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-trophy"/></svg></div>
+            <h3>Grand Prize</h3>
+            <p class="amount">&#8377;40,000</p>
+            <p>Best overall project, plus trophies and certificates.</p>
+            <span class="tag">Sample value</span>
+          </article>
+          <article class="card prize c-blue">
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-medal"/></svg></div>
+            <h3>Runner-up</h3>
+            <p class="amount">&#8377;25,000</p>
+            <p>For the second-best build, with goodies for every member.</p>
+            <span class="tag">Sample value</span>
+          </article>
+          <article class="card prize c-red">
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-palette"/></svg></div>
+            <h3>Best UI/UX</h3>
+            <p class="amount">&#8377;15,000</p>
+            <p>For the most polished and user-friendly design.</p>
+            <span class="tag">Sample value</span>
+          </article>
+          <article class="card prize c-green">
+            <div class="icon-wrap" aria-hidden="true"><svg class="icon" viewBox="0 0 48 48" focusable="false"><use href="#i-star"/></svg></div>
+            <h3>Best Rookie Team</h3>
+            <p class="amount">&#8377;10,000</p>
+            <p>For a first-time hackathon team that impresses the judges.</p>
+            <span class="tag">Sample value</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SPONSORS ============ -->
+    <section id="sponsors" class="section section-alt" aria-labelledby="sponsors-title">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow">Sponsors &amp; partners</p>
+          <h2 id="sponsors-title">Patrons of possibility</h2>
+          <p class="lead">Partners who back big ideas. Names below are fictional samples, shown as logo placeholders.</p>
+        </div>
+
+        <ul class="sponsor-grid">
+          <li class="sponsor c-blue">
+            <svg class="sponsor-mark" viewBox="0 0 64 64" role="img" aria-label="Skybrick Cloud logo placeholder"><g stroke="#14182e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="22" y="7" width="9" height="8" rx="2.5" fill="#FBBC05"/><rect x="36" y="7" width="9" height="8" rx="2.5" fill="#FBBC05"/><path d="M17 51a11 11 0 0 1 1-22 15 15 0 0 1 29 3 9.5 9.5 0 0 1 0 19z" fill="#4285F4"/><path d="M22 41h20" stroke="#fff" stroke-width="3"/></g></svg>
+            <strong>Skybrick Cloud</strong>
+            <p class="sponsor-role">Cloud Partner</p>
+            <p class="sponsor-line">Credits that lift every build</p>
+            <span class="tag">Sample sponsor</span>
+          </li>
+          <li class="sponsor c-red">
+            <svg class="sponsor-mark" viewBox="0 0 64 64" role="img" aria-label="Pixelwright Studio logo placeholder"><g stroke="#14182e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="8" y="8" width="14" height="14" rx="3.5" fill="#EA4335"/><rect x="25" y="8" width="14" height="14" rx="3.5" fill="#FBBC05"/><rect x="42" y="8" width="14" height="14" rx="3.5" fill="#4285F4"/><rect x="8" y="25" width="14" height="14" rx="3.5" fill="#FBBC05"/><rect x="25" y="25" width="14" height="14" rx="3.5" fill="#34A853"/><rect x="42" y="25" width="14" height="14" rx="3.5" fill="#EA4335"/><rect x="8" y="42" width="14" height="14" rx="3.5" fill="#4285F4"/><rect x="25" y="42" width="14" height="14" rx="3.5" fill="#EA4335"/><rect x="42" y="42" width="14" height="14" rx="3.5" fill="#FBBC05"/></g></svg>
+            <strong>Pixelwright Studio</strong>
+            <p class="sponsor-role">Design Partner</p>
+            <p class="sponsor-line">Craft, colour and clever UX</p>
+            <span class="tag">Sample sponsor</span>
+          </li>
+          <li class="sponsor c-green">
+            <svg class="sponsor-mark" viewBox="0 0 64 64" role="img" aria-label="Novaforge Systems logo placeholder"><g stroke="#14182e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><path d="M32 5l23 13v28L32 59 9 46V18z" fill="#34A853"/><path d="M36 15 22 35h9l-3 14 14-21h-9z" fill="#FBBC05"/></g></svg>
+            <strong>Novaforge Systems</strong>
+            <p class="sponsor-role">Technology Partner</p>
+            <p class="sponsor-line">Tools forged for tomorrow</p>
+            <span class="tag">Sample sponsor</span>
+          </li>
+          <li class="sponsor c-yellow">
+            <svg class="sponsor-mark" viewBox="0 0 64 64" role="img" aria-label="Codeloom Collective logo placeholder"><g stroke="#14182e" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="6" y="6" width="52" height="52" rx="15" fill="#EA4335"/><path d="M26 20c-5 0-6 2-6 6v3c0 3-2 3-4 3 2 0 4 0 4 3v3c0 4 1 6 6 6" fill="none" stroke="#fff" stroke-width="4"/><path d="M38 20c5 0 6 2 6 6v3c0 3 2 3 4 3-2 0-4 0-4 3v3c0 4-1 6-6 6" fill="none" stroke="#fff" stroke-width="4"/><circle cx="32" cy="32" r="3.5" fill="#FBBC05" stroke-width="2"/></g></svg>
+            <strong>Codeloom Collective</strong>
+            <p class="sponsor-role">Community Partner</p>
+            <p class="sponsor-line">Weaving builders together</p>
+            <span class="tag">Sample sponsor</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section id="faq" class="section" aria-labelledby="faq-title">
+      <div class="container narrow">
+        <div class="section-head">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Quick answers</h2>
+        </div>
+
+        <div class="faq">
+          <details open>
+            <summary>Do I need prior hackathon experience?</summary>
+            <p>No. Beginners are welcome, and mentors will be available throughout to help you get unstuck.</p>
+          </details>
+          <details>
+            <summary>How big can a team be?</summary>
+            <p>Teams can have 1 to 4 members. You can also join solo and find teammates at check-in.</p>
+          </details>
+          <details>
+            <summary>Is it free to participate?</summary>
+            <p>Yes. Registration is free, and meals are provided to offline participants.</p>
+          </details>
+          <details>
+            <summary>Can I join online?</summary>
+            <p>Yes. BrickByte is hybrid, so you can build from anywhere and demo over a video call.</p>
+          </details>
+          <details>
+            <summary>When does registration close?</summary>
+            <p>Registration closes on 5 December 2026. The event begins on 12 December 2026 at 9:00 AM IST.</p>
+          </details>
+          <details>
+            <summary>What should I bring?</summary>
+            <p>Your laptop, charger, student ID and a generous measure of curiosity. We will provide the Wi-Fi, refreshments and plenty of inspiration.</p>
+          </details>
+        </div>
+
+        <p class="faq-more">Still wondering? Write to us at <a href="mailto:hello@brickbyte.example">hello@brickbyte.example</a> <span>(sample address)</span>.</p>
+      </div>
+    </section>
+
+    <!-- ============ REGISTER CTA ============ -->
+    <section id="register" class="cta" aria-labelledby="register-title">
+      <div class="container cta-grid">
+        <div class="cta-copy">
+          <p class="eyebrow eyebrow-light">Registration open</p>
+          <h2 id="register-title">Your idea. Your team. Your bricks.</h2>
+          <p>Free entry, open to every college, beginners welcome. Register your team before <strong>5 December 2026</strong> and join us at MMMUT, Gorakhpur on <strong>12 December 2026</strong>.</p>
+          <p class="cta-date" id="cta-days" aria-live="polite"></p>
+        </div>
+
+        <form id="register-form" class="form-card" novalidate aria-labelledby="form-title">
+          <h3 id="form-title">Register your team</h3>
+          <p class="form-note"><span class="demo-badge">Demo form</span> For this prototype only. Nothing you type is sent or stored, because there is no backend.</p>
+
+          <div class="field">
+            <label for="fullName">Full name</label>
+            <input id="fullName" name="fullName" type="text" autocomplete="name" required aria-describedby="err-fullName">
+            <p class="error" id="err-fullName" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="err-email">
+            <p class="error" id="err-email" role="alert"></p>
+          </div>
+
+          <div class="field">
+            <label for="college">College / Organisation</label>
+            <input id="college" name="college" type="text" autocomplete="organization" required aria-describedby="err-college">
+            <p class="error" id="err-college" role="alert"></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="teamSize">Team size</label>
+              <select id="teamSize" name="teamSize" required aria-describedby="err-teamSize">
+                <option value="">Select</option>
+                <option value="1">1 (solo)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <p class="error" id="err-teamSize" role="alert"></p>
+            </div>
+            <div class="field">
+              <label for="track">Preferred track</label>
+              <select id="track" name="track" required aria-describedby="err-track">
+                <option value="">Select</option>
+                <option>Smart Campus</option>
+                <option>AgriTech for Bharat</option>
+                <option>Health &amp; Accessibility</option>
+                <option>AI for Everyone</option>
+              </select>
+              <p class="error" id="err-track" role="alert"></p>
+            </div>
+          </div>
+
+          <div class="field check">
+            <input id="agree" name="agree" type="checkbox" required aria-describedby="err-agree">
+            <label for="agree">I agree to follow the BrickByte code of conduct.</label>
+            <p class="error" id="err-agree" role="alert"></p>
+          </div>
+
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Register Now</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-cta">
+      <p class="footer-cta-text">Ready to build something remarkable?</p>
+      <a class="btn btn-lg footer-cta-btn" href="#register">Register Now</a>
+    </div>
+
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a class="brand brand-light" href="#top" aria-label="BrickByte 2026, back to top">
+          <svg class="brand-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><use href="#brand"/></svg>
+          <span class="brand-text">Brick<b>Byte</b> <small>2026</small></span>
+        </a>
+        <div class="footer-host">
+          <img src="mmmut-logo.png" width="64" height="64" alt="Emblem of Madan Mohan Malaviya University of Technology, Gorakhpur" loading="lazy">
+          <p>Hosted at <strong>Madan Mohan Malaviya University of Technology, Gorakhpur</strong>.</p>
+        </div>
+        <p>BrickByte is run by a GDG-inspired student community that welcomes every curious builder, whatever their level.</p>
+      </div>
+
+      <nav aria-label="Footer quick links">
+        <h3>Quick links</h3>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#tracks">Tracks</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#mentors">Mentors</a></li>
+          <li><a href="#prizes">Prizes</a></li>
+          <li><a href="#sponsors">Sponsors</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#register">Register</a></li>
+        </ul>
+      </nav>
+
+      <div>
+        <h3>Contact</h3>
+        <ul class="footer-contact">
+          <li><span class="label">Email (sample)</span><a href="mailto:hello@brickbyte.example">hello@brickbyte.example</a></li>
+          <li><span class="label">Venue</span><span class="value">MMMUT Campus, Gorakhpur, Uttar Pradesh</span></li>
+          <li><span class="label">Social (sample links)</span>
+            <span class="socials">
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+              <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://x.com/" target="_blank" rel="noopener noreferrer">X</a>
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </span>
+          </li>
+          <li><span class="label">Community</span><a href="https://developers.google.com/community/gdg" target="_blank" rel="noopener noreferrer">About Google Developer Groups</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <div>
+        <p>BrickByte 2026 is a fictional event created for the Prompt 2 Pixel challenge. All names, prizes, sponsors and contact details are sample details.</p>
+        <p>&copy; <span id="year">2026</span> A GDG-inspired community project.</p>
+      </div>
+      <a class="to-top" href="#top">&uarr; Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
